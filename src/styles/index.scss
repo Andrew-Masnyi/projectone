@@ -4,3 +4,66 @@ body {
   color: $body-color;
   font-family: sans-serif;
 }
+
+.section-header  {
+  height: 688px;
+  background-color: #F6F2F2;
+}
+
+.main-header  {
+  display: block;
+  width: 588px;
+  height: 117px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.text  {
+  display: block;
+  width: 512;
+  height: 73;
+  color: #6F6D6D;
+}
+
+.btn  {
+  width: 228;
+  height: 56;
+  background-color: #FF2D2D;
+  border: none;
+  margin-top: 37px;
+}
+
+.video  {
+  width: 552;
+  height: 357;
+}
+
+.provide  {
+  display: inline-block;
+  width: 511px;
+  height: 348px;
+}
+
+.services {
+  display: inline-block;
+  width: 615px;
+  height: 479px;
+}
+
+.service  {
+  display: inline-block;
+}
+
+.text-service {
+  font-size: 16px;
+  display: inline-block;
+  width: 290px; 
+  height: 101px;
+  margin: 50px;
+}
+
+.settings {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
