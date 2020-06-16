@@ -1,14 +1,26 @@
 $body-color: #6F6D6D;
 $header-color: #000000;
-$btn-primary-bg: #FF2D2D;
+$btn-primary: #FF2D2D;
+$body-fz: 16px;
 body {
   color: $body-color;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: $body-fz;
 }
 
 .section-header  {
   height: 688px;
   background-color: #F6F2F2;
+  display: flex;
+  align-items: center;
+  padding-top: 101px;
+  h1 {
+    margin-bottom: 36px;
+  }
+  p {
+    margin-bottom: 57px;
+    font-size: 15px;
+  }
 }
 
 
@@ -21,76 +33,81 @@ h1 {
   font-weight: 800;
 }
 
-.sub-header  {
-  font-size: 15px;
+h2 {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .btn  {
+  font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   padding: 20px 64px;
   font-weight: bold;
   &.btn-primary  {
-    background-color: $btn-primary-bg;
-    border-color: $btn-primary-bg;
+    background-color: $btn-primary;
+    border-color: $btn-primary;
     &:hover {
-      background-color: darken($btn-primary-bg, 20%);
-      border-color: $btn-primary-bg;
+      background-color: darken($btn-primary, 20%);
+      border-color: $btn-primary;
     }
     &:focus {
-      background-color: darken($btn-primary-bg, 20%);
-      border-color: $btn-primary-bg;
-      box-shadow: none;
+      background-color: darken($btn-primary, 20%);
+      border-color: $btn-primary;
+      box-shadow: 0 0 0 0.2rem rgba(255, 45, 45, .5);
     }
     &:active {
-      background-color: darken($btn-primary-bg, 20%) !important;
-      border-color: $btn-primary-bg !important;
-      box-shadow: 0 0 0 0.2rem $btn-primary-bg !important;
+      background-color: darken($btn-primary, 20%) !important;
+      border-color: $btn-primary !important;
+      box-shadow: 0 0 0 0.2rem rgba(255, 45, 45, .5) !important;
     }
+  }
+  &.btn-outline-primary {
+    color: $btn-primary;
+    border-color: $btn-primary;
+    &:hover {
+      background-color: $btn-primary;
+      color: #ffffff;
+    }
+    &:focus {
+      box-shadow: 0 0 0 0.2rem rgba(255, 45, 45, .5);
+    }
+    &:active {
+      background-color: $btn-primary !important;
+      color: #ffffff;
+      box-shadow: 0 0 0 0.2rem rgba(255, 45, 45, .5) !important;
+      border-color: $btn-primary !important;
+    }
+
   }
 }
 
-.main-header  {
-  margin-bottom: 36px;
-}
-.sub-header {
-  margin-bottom: 57px;
-}
 .main-video {
-  -webkit-box-shadow: 0px 0px 48px 13px rgba(0,0,0,0.49);
-  -moz-box-shadow: 0px 0px 48px 13px rgba(0,0,0,0.49);
   box-shadow: 0px 0px 48px 13px rgba(0,0,0,0.49);
 }
 
-.video  {
-  width: 552;
-  height: 357;
+.section-two  {
+  padding-bottom: 107px;
+  padding-top: 113px;
+  .icon {
+    margin-bottom: 35px;
+  }
+  h2 {
+    margin-bottom: 50px;
+  }
+  h6 {
+    margin-bottom: 20px;
+  }
 }
 
-.provide  {
-  display: inline-block;
-  width: 511px;
-  height: 348px;
-}
-
-.services {
-  display: inline-block;
-  width: 615px;
-  height: 479px;
-}
-
-.service  {
-  display: inline-block;
-}
-
-.text-service {
-  font-size: 16px;
-  display: inline-block;
-  width: 290px; 
-  height: 101px;
-  margin: 50px;
-}
-
-.settings {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-}
