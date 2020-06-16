@@ -51,6 +51,7 @@ h6 {
   justify-content: center;
 }
 .btn  {
+  line-height: 1;
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   padding: 20px 64px;
@@ -98,7 +99,7 @@ h6 {
 }
 
 .section-two  {
-  padding-bottom: 107px;
+  padding-bottom: 59px;
   padding-top: 113px;
   .icon {
     margin-bottom: 35px;
@@ -109,5 +110,17 @@ h6 {
   h6 {
     margin-bottom: 20px;
   }
+  .content-col {
+    margin-bottom: 48px;
+  }
+  .text-two {
+    margin-bottom: 57px;
+  }
+}
+
+hr {
+  border: 0;
+  height: 3px;
+  background-color: #ECECEC;
 }
 
