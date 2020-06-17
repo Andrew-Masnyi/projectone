@@ -38,6 +38,16 @@ h2 {
   font-weight: bold;
 }
 
+h3 {
+  font-size: 38px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+
+
 h6 {
   font-size: 27px;
   font-weight: 600;
@@ -98,6 +108,8 @@ h6 {
   box-shadow: 0px 0px 48px 13px rgba(0,0,0,0.49);
 }
 
+// section two start
+
 .section-two  {
   padding-bottom: 59px;
   padding-top: 113px;
@@ -117,6 +129,7 @@ h6 {
     margin-bottom: 57px;
   }
 }
+// section two end
 
 hr {
   border: 0;
@@ -124,3 +137,91 @@ hr {
   background-color: #ECECEC;
 }
 
+.hr-primary {
+  border: 0;
+  height: 3px;
+  background-color: #FF2D2D;
+}
+
+// section three start
+
+.section-three {
+  margin-top: 106px;
+  h3 {
+    font-weight: bold;
+    margin-bottom: 34px;
+  }
+  p {
+    font-size: 15px;
+    margin-bottom: 28px;
+  }
+  hr {
+    margin-bottom: 88px;
+  }
+  .photo {
+    margin-bottom: 30px;
+  }
+
+}
+.img-cover {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+// section three end
+
+
+// section four start
+
+.section-four {
+  margin-top: 107px;
+  margin-bottom: 109px;
+  h3 {
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  p {
+    font-size: 15px;
+    margin-bottom: 32px;
+  }
+  hr {
+    margin-bottom: 68px;
+  }
+}
+
+// section four end
+
+// section five start
+
+.section-five {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 512px;
+  background-color: #F5F0DD;
+  padding: 140px 0 140px 0;
+  h2 {
+    color: white;
+    margin-bottom: 31px;
+  }
+  p {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 61px;
+  }
+  .btn {
+    display: inline-flex;
+    line-height: 15px;
+    padding: 35px 70px;
+  }
+}
+.form-control-lg {
+  display: inline-flex;
+  width: 522px;
+  height: 80px;
+  border: none;
+  &:focus {
+    border: none;
+  }
+}
