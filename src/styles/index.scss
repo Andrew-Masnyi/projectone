@@ -197,12 +197,19 @@ hr {
     font-weight: bold;
     margin-bottom: 40px;
   }
+  h4 {
+    font-weight: 600;
+    margin-bottom: 35px;
+  }
   p {
     font-size: 15px;
-    margin-bottom: 32px;
+    margin-bottom: 44px;
   }
   hr {
     margin-bottom: 68px;
+  }
+  .img-cover-team  {
+    height: 198px;
   }
 }
 
@@ -211,11 +218,10 @@ hr {
 // section five start
 
 .section-five {
-  display: flex;
-  align-items: center;
+  // align-items: center;
+  background-image: url(../../public/img/section-five-bg.png);
   text-align: center;
   height: 512px;
-  background-color: #F5F0DD;
   padding: 140px 0 140px 0;
   h2 {
     color: white;
@@ -227,17 +233,17 @@ hr {
     margin-bottom: 61px;
   }
   .btn {
-    display: inline-flex;
     line-height: 15px;
-    padding: 35px 70px;
+    padding: 31px 70px;
   }
 }
 .form-control-lg {
-  display: inline-flex;
+  margin-right: 20px;
   width: 522px;
   height: 80px;
   border: none;
   &:focus {
     border: none;
+    box-shadow: none;
   }
 }
