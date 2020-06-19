@@ -208,6 +208,38 @@ hr {
   hr {
     margin-bottom: 68px;
   }
+  .person {
+    position: relative;
+    &:hover  {
+      .person-name  {
+        display: block;
+      }
+    }
+    .person-name {
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      padding: 10px 0;
+      text-align: center;
+      background-color: rgba(122,120,110, 0.7);
+      color: white;
+      font-size: 17px;
+      font-weight: 600;
+      text-transform: uppercase;
+      display: none;
+    } 
+    
+  }
+  .link {
+    margin-bottom: 58px;
+  }
+  .social-network {
+    margin-right: 29px;
+    font-size: 18px;
+    color: #585858;
+    text-decoration: none;
+}
+  
   .img-cover-team  {
     height: 198px;
   }
