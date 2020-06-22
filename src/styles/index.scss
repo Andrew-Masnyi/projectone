@@ -60,12 +60,27 @@ h6 {
   align-items: center;
   justify-content: center;
 }
+
 .btn  {
   line-height: 1;
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   padding: 20px 64px;
   font-weight: bold;
+  &.btn-lg {
+    line-height: 15px;
+    padding: 31px 70px;
+  }
+  &.btn-link  {
+    font-weight: normal;
+    padding: 0;
+    font-style: italic;
+    font-size: 18px;
+    color: #585858;
+    &:focus {
+      box-shadow: none;
+    }
+  }
   &.btn-primary  {
     background-color: $primary;
     border-color: $primary;
@@ -233,12 +248,10 @@ hr {
   .link {
     margin-bottom: 58px;
   }
-  .social-network {
-    margin-right: 29px;
-    font-size: 18px;
-    color: #585858;
-    text-decoration: none;
-}
+  .btn-link {
+    margin-right: 30px;
+  }
+  
   
   .img-cover-team  {
     height: 198px;
@@ -250,11 +263,13 @@ hr {
 // section five start
 
 .section-five {
-  // align-items: center;
   background-image: url(../../public/img/section-five-bg.png);
   text-align: center;
   height: 512px;
   padding: 140px 0 140px 0;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
   h2 {
     color: white;
     margin-bottom: 31px;
@@ -264,24 +279,42 @@ hr {
     color: white;
     margin-bottom: 61px;
   }
-  .btn {
-    line-height: 15px;
-    padding: 31px 70px;
-  }
 }
-.form-control-lg {
-  margin-right: 20px;
-  width: 522px;
-  height: 80px;
-  border: none;
+.form-control { 
   &:focus {
-    border: none;
-    box-shadow: none;
+    box-shadow: 0 0 0 0.2rem rgba(255, 45, 45, .5);
+    border-color: $primary;
   }
 }
+
+.form-control-lg {
+ font-size: 16px;
+ height: 80px;
+ padding-left: 37px;
+}
+
 
 // section six start
 
 .section-six {
+  .hr-primary {
+    margin-bottom: 74px;
+  }
+  .area-text  {
+    margin-top: 45px;
+  }
+  .btn-block  {
+    margin-top: 44px;
+  }
   padding: 140px 0;
+  .control-six {
+    font-size: 11px;
+    height: 70px;
+    padding-left: 50px;
+  }
+  .info {
+    height: 397px;
+    color: #E0E0E0;
+    background-color: #2D2D2D;
+  }
 }

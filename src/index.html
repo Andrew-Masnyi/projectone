@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>webpack starterkit</title>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
@@ -272,10 +273,10 @@
                 / Ux , print template.
               </p>
               <div class="link">
-                <a href="https://www.facebook.com/" class="social-network">Facebook</a>
-                <a href="https://dribbble.com/" class="social-network">Dribble</a>
-                <a href="https://www.behance.net/onboarding/adobe" class="social-network">Behance</a>
-                <a href="https://twitter.com/explore" class="social-network">Twitter</a>
+                <a href="https://www.facebook.com/" class="btn btn-link" target="_blank">Facebook</a>
+                <a href="https://dribbble.com/" class="btn btn-link" target="_blank">Dribble</a>
+                <a href="https://www.behance.net/onboarding/adobe" class="btn btn-link" target="_blank">Behance</a>
+                <a href="https://twitter.com/explore" class="btn btn-link" target="_blank">Twitter</a>
               </div>
             </div>
           </div>
@@ -329,15 +330,16 @@
           <p>
             Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.
           </p>
-          <form class="form-inline justify-content-center" action="mailto:andreyolyalua@gmail.com">
-            <div class="form-group ">
-              <input type="email" class="form-control form-control-lg" placeholder="Email Address...">
+          <form action="mailto:andreyolyalua@gmail.com">
+            <div class="form-row justify-content-center">
+              <div class="col-6">
+                <input type="email" class="form-control form-control-lg" placeholder="Email Address...">
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg text-uppercase">subscribe</button>
             </div>
-            <button type="submit" class="btn btn-primary btn-lg text-uppercase">subscribe</button>
           </form>
         </div>
       </div>
-    </div>
   </section>
 
 
@@ -346,7 +348,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-7">
-          <h3 class="text uppercase">
+          <h3 class="text-uppercase">
             get in touch
           </h3>
           <p>
@@ -359,24 +361,44 @@
               <hr class="hr-primary">
             </div>
           </div>
-          <form class="form-inline justify-content-center">
-            <div class="form-group mx-sm-3">
-              <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
-            </div>
-            <div class="form-group mx-sm-3 justify-content-center">
-              <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
-            </div>
-            <div class="col-xl-12">
-              <div class="form-group">
-                <textarea class="form-control" rows="6" placeholder="Type your massage"></textarea>
-              </div>
-            </div>
-          </form>
-        </div>
-        <div class="cpo-xl-4">
-
         </div>
       </div>
+      <div class="col-12">
+        <div class="row">
+          <div class="col-xl-7">
+            <form>
+              <div class="form-row">
+                <div class="col-6">
+                  <input type="text" class="form-control control-six" placeholder="Name">
+                </div>
+                <div class="col-6">
+                  <input type="text" class="form-control control-six" placeholder="Your Mail">
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control area-text" id="exampleFormControlTextarea1" rows="6"
+                  placeholder="Type your message">
+                </textarea>
+              </div>
+            </form>
+            <button type="submit" class="btn btn-primary btn-lg btn-block text-uppercase">Send message</button>
+          </div>
+          <div class="col-xl-5">
+            <div class="row">
+              <div class="col-xl-5 info">
+                  <p class="text-uppercase">
+                    contact info
+                  </p>
+                  <p>Jalalabad 24 / A, Ambaarkhana, Sylhet,
+                    Bangladesh</p>
+                  <p>redwan@deviserweb.com</p>
+                  <p>8 800 555 35 35</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
   </section>
 
