@@ -297,24 +297,31 @@ hr {
 // section six start
 
 .section-six {
+  padding: 140px 0;
   .hr-primary {
     margin-bottom: 74px;
   }
-  .area-text  {
-    margin-top: 45px;
+  .btn-lg {
+    padding-top: 26px;
+    padding-bottom: 26px;
   }
-  .btn-block  {
-    margin-top: 44px;
+  .form-group {
+    margin-bottom: 44px;
   }
-  padding: 140px 0;
-  .control-six {
-    font-size: 11px;
-    height: 70px;
-    padding-left: 50px;
+  .form-control {
+    background-color: #E5E5E5;
+    border: 0;
   }
-  .info {
-    height: 397px;
-    color: #E0E0E0;
-    background-color: #2D2D2D;
+  input {
+    &.form-control {
+      height: 70px;
+      padding-left: 55px;
+    }
+  }
+  textarea {
+    &.form-control {
+      padding: 36px 55px 15px 55px;
+      resize: none;
+    }
   }
 }
