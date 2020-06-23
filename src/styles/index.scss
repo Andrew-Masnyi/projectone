@@ -301,6 +301,11 @@ hr {
   .hr-primary {
     margin-bottom: 74px;
   }
+  .btn-link  {
+    display: block;
+    color: #E0E0E0;
+  }
+  }
   .btn-lg {
     padding-top: 26px;
     padding-bottom: 26px;
@@ -311,6 +316,7 @@ hr {
   .form-control {
     background-color: #E5E5E5;
     border: 0;
+    
   }
   input {
     &.form-control {
@@ -322,6 +328,54 @@ hr {
     &.form-control {
       padding: 36px 55px 15px 55px;
       resize: none;
+    }
+  }
+  .info {
+    color: #E0E0E0;
+    padding-top: 179px;
+    padding-bottom: 179px;
+    padding-left: 50px;
+    border-radius: 16px;
+    background-color: #2D2D2D;
+  }
+
+
+  footer {
+    background-color: #313030;
+    p {
+      margin-top: 58px;
+      margin-bottom: 37px;
+    }
+    a {
+      display: inline-flex;
+    }
+    .icon {
+      margin-top: 48px;
+      margin-bottom: 31px;
+      &.twitter {
+        &:hover {
+          background-color: #00ACEE;
+          border-radius: 50px;
+        }
+      }
+      &.linkedin {
+        &:hover {
+          background-color: #0E76A8;
+          border-radius: 50px;
+        }
+      }
+      &.instagram {
+        &:hover {
+          background: rgb(131,58,180);
+          background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+          border-radius: 50px;
+        }
+      }
+      &.facebook  {
+        &:hover {
+        background-color: #4267B2;
+        border-radius: 50px;
+      }
     }
   }
 }
