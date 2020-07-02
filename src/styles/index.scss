@@ -8,6 +8,65 @@ body {
   font-size: $body-fz;
 }
 
+// header  {
+//   display: flex;
+//   margin-top: 27px;
+//   width: 1110px;
+//   height: 90px;
+//   position: fixed;
+//   z-index: 100;
+//   background-color: #313030;
+//   .nav-item {
+//     font-size: 14px;
+//     color: #E0E0E0;
+//     padding-top: 35px;
+//   }
+//   .home {
+//     background-color: red;
+//     height: 90px;
+//     width: 90px;
+//   }
+// }
+
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 27px;
+  z-index: 1;
+  .navbar  {
+    background-color: #313030;
+    height: 90px;
+  }
+  .nav-link {
+    color: #E0E0E0;
+    font-size: 14px;
+    font-weight: 700;
+    height: 90px;
+    align-items: center;
+    display: flex;
+    padding: 45px 10px 33px 10px !important;
+    &.home  {
+      margin-left: 14px;
+      margin-right: 14px;
+    }
+    &.portfolio {
+      margin-left: 14px;
+      margin-right: 14px;
+    }
+    &.about {
+      margin-left: 14px;
+    }
+    &.contact {
+      margin-left: 35px;
+    }
+  }
+  .active {
+    background-color: red;
+  }
+}
+
+
 .section-header  {
   height: 688px;
   background-color: #F6F2F2;
@@ -279,6 +338,11 @@ hr {
     color: white;
     margin-bottom: 61px;
   }
+  .form-control-lg {
+ font-size: 16px;
+ height: 80px;
+ padding-left: 37px;
+  }
 }
 .form-control { 
   &:focus {
@@ -287,11 +351,7 @@ hr {
   }
 }
 
-.form-control-lg {
- font-size: 16px;
- height: 80px;
- padding-left: 37px;
-}
+
 
 
 // section six start
@@ -374,7 +434,7 @@ hr {
       &.facebook  {
         &:hover {
         background-color: #4267B2;
-        border-radius: 50px;
+        border-radius: 50%;
       }
     }
   }
