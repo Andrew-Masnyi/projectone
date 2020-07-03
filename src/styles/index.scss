@@ -69,6 +69,12 @@ header {
 
 .section-header  {
   height: 688px;
+  @media (max-width: 991px) {
+    height: 1000px;
+    .btn  {
+      margin-bottom: 30px;
+    }
+  }
   background-color: #F6F2F2;
   display: flex;
   align-items: center;
@@ -189,6 +195,9 @@ h6 {
   padding-top: 113px;
   .icon {
     margin-bottom: 35px;
+    @media (max-width: 1199px) {
+      margin-top: 20px;
+    }
   }
   h2 {
     margin-bottom: 50px;
@@ -397,6 +406,9 @@ hr {
     padding-left: 50px;
     border-radius: 16px;
     background-color: #2D2D2D;
+    @media (max-width: 1199px) {
+      margin-top: 20px;
+    }
   }
 
 
